@@ -19,7 +19,7 @@ var config = {
                 originLon: -83.7354,
                 originRadius: 5,
                 destLat: 42.2780
-                destLon: 83.7382,
+                destLon: -83.7382,
                 destRadius: 5,
                 theme: 'light',
                 updateInterval: 500

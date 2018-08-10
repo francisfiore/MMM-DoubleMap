@@ -20,7 +20,8 @@ var config = {
                 destLat: "",
                 destLon: "",
                 destRadius: "",
-                theme: ""
+                theme: "",
+                updateInterval: 900000
             }
         }
     ]
@@ -39,3 +40,4 @@ var config = {
 | `destLon`        | *Optional* | The longitude of the destination point from which the nearest bus stops will be found. <br><br>**Type:**`float`
 | `destRadius`     | *Optional* | Walking radius, in minutes, from the destination position to find bus stops. If no bus stops are found within the radius around the destination that follow bus stops within the radius of the origin, no routes will be displayed.<br><br>**Type:** `int`(minutes) <br>Default 5 minutes
 | `theme`          | *Optional* | Map and module display theme.<br><br>**Type:**`string`<br>Default `light`. Currently supports `dark` and `light`
+| `updateInterval`  | *Optional* | Time between call refreshes of the schedule and map<br><br>**Type:**`int`(milliseconds)<br>Default 500 (30 seconds) 

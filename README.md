@@ -12,16 +12,17 @@ var config = {
     modules: [
         {
             module: 'MMM-DoubleMap',
+            position: 'top-left',
             config: {
-                organization: "",
-                originLat: "",
-                originLon: "",
-                originRadius: "",
-                destLat: "",
-                destLon: "",
-                destRadius: "",
-                theme: "",
-                updateInterval: 900000
+                organization: 'mbus',
+                originLat: 42.2779,
+                originLon: -83.7354,
+                originRadius: 5,
+                destLat: 42.2780
+                destLon: 83.7382,
+                destRadius: 5,
+                theme: 'light',
+                updateInterval: 500
             }
         }
     ]
